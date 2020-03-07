@@ -13,6 +13,7 @@
 		C0B66A562412A9250019E05A /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C0B66A542412A9250019E05A /* Main.storyboard */; };
 		C0B66A582412A9260019E05A /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = C0B66A572412A9260019E05A /* Assets.xcassets */; };
 		C0B66A5B2412A9260019E05A /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C0B66A592412A9260019E05A /* LaunchScreen.storyboard */; };
+		C0B66A632412AB4E0019E05A /* SecondViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C0B66A622412AB4E0019E05A /* SecondViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -24,6 +25,7 @@
 		C0B66A572412A9260019E05A /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		C0B66A5A2412A9260019E05A /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		C0B66A5C2412A9260019E05A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		C0B66A622412AB4E0019E05A /* SecondViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SecondViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -63,6 +65,7 @@
 				C0B66A572412A9260019E05A /* Assets.xcassets */,
 				C0B66A592412A9260019E05A /* LaunchScreen.storyboard */,
 				C0B66A5C2412A9260019E05A /* Info.plist */,
+				C0B66A622412AB4E0019E05A /* SecondViewController.swift */,
 			);
 			path = lab3_3;
 			sourceTree = "<group>";
@@ -93,6 +96,9 @@
 		C0B66A432412A9240019E05A /* Project object */ = {
 			isa = PBXProject;
 			attributes = {
+				KnownAssetTags = (
+					1,
+				);
 				LastSwiftUpdateCheck = 1130;
 				LastUpgradeCheck = 1130;
 				ORGANIZATIONNAME = "Шынгыс";
@@ -138,6 +144,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				C0B66A632412AB4E0019E05A /* SecondViewController.swift in Sources */,
 				C0B66A532412A9250019E05A /* ViewController.swift in Sources */,
 				C0B66A4F2412A9250019E05A /* AppDelegate.swift in Sources */,
 				C0B66A512412A9250019E05A /* SceneDelegate.swift in Sources */,
